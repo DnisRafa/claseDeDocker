@@ -8,9 +8,11 @@ A continuación, como hemos utilizado un disco duro, el cual contenía docker, e
   
 Una vez dentro del directorio, vamos a crear nuestro archivo dockerfile. Para ello utilizamos el siguiente comando:
   *nano dockerfile*
+  
 En su interior vamos a escribir: FROM httpd:latest, para poder hacer una conexión con la imagen que hemos descargado.
 Una vez guardado el dockerfile, estando dentro del directorio, procedemos a escribir el siguiente comando para su montaje:
   *docker build -t prueba:latest .* Con este comando hacemos el montaje y con '-t' le damos un tag, en este caso, sería 'prueba'.
+  
   
 (Para poder ver las imagenes que tenemos montadas, podemos hacerlo mediante el comando: *docker images*)
 
