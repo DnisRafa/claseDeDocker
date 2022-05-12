@@ -23,13 +23,19 @@ A continuación, procedemos a correr la imagen y crear nuestro contenedor, para 
   
 Con este comando, añadimos el puerto que vamos a utilizar tambien.
 En caso de querer ver las todos los contenedores activos, con el comando *docker ps*.
+
+
 Para, pararlos, con el comando *docker stop <id>*.
  
   
 Para cambiar el texto por defecto de nuestra imagen mostrado en el localhost. Crearemos un index.html y lo moveremos al directorio .docker/ y accederemos al docker file
 dejandolo de esta forma: FROM httpd:latest
                          COPY index.html /usr/local/apache2/htdocs/index.html
+ 
+ 
 Y a continuacion lanzandolo de nuevo con el run.
+ 
+ 
 Introduciendo el index creado en el directorio htdocs, de esta forma cambiamos el mensaje a gusto propio.
   
  
