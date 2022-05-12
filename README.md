@@ -28,7 +28,7 @@ En caso de querer ver las todos los contenedores activos, con el comando *docker
 Para, pararlos, con el comando *docker stop <id>*.
  
   
-Para cambiar el texto por defecto de nuestra imagen mostrado en el localhost. Crearemos un index.html y lo moveremos al directorio .docker/ y accederemos al docker file
+Para cambiar el texto por defecto de nuestra imagen mostrado en el localhost. Crearemos un index.html y lo moveremos al directorio .docker/ y accederemos al dockerfile
 dejandolo de esta forma: FROM httpd:latest
                          COPY index.html /usr/local/apache2/htdocs/index.html
  
